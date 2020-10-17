@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2bf3687a75f31d54ca3bd883633d9e9c11123b77bfd4acd715c3e72c250015ac
+-- hash: d5da783ca277c53fc2216b789af1c15dc6a615f105f38d12c2bdf018f89ee65e
 
 name:           learnyouahaskell
 version:        0.1.0.0
@@ -24,6 +24,7 @@ extra-source-files:
     ChangeLog.md
     TODO
     LICENSE
+    baby.lhs
 
 source-repository head
   type: git

@@ -2,7 +2,23 @@
 
 ## Unreleased changes
 
-## 2020-10-17 - 0.1.0.0 "Project's Skeleton"
+## 2020-10-17 - 0.1.0.0
+
+Chapter 2: Starting Out
+
+### Added
+
+* baby.hs
+
+### Added
+
+* ChangeLog.md
+* learnyouahaskell.cabal
+* package.yaml
+
+## 2020-10-17 - 0.1.0.0
+
+Project's Skeleton
 
 ### Added
 * .gitignore
