@@ -2,6 +2,15 @@
 
 ## Unreleased changes
 
+## 2021-10-13 - 0.1.0.0
+
+Minor fixes
+
+## Changed
+
+* README.md     a note about loading `baby.lhs` in `ghci`.
+* .gitignore    added `dist-newstyle/` 
+
 ## 2020-10-17 - 0.1.0.0
 
 Chapter 2: Starting Out
