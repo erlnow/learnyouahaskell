@@ -1,3 +1,19 @@
+> {-|
+> Module      : Baby
+> Description : baby.hs
+> Copyright   : (c) 2020-2030 Eduardo Ramón Lestau
+> License     : BSD3
+> Stability   : experimental
+> Portability : POSIX
+>
+> This is the `baby.lhs` file from Chapter two `Starting Out` of
+> the book online `Learn you a Haskell for Great Good!` available
+> online on http://learnyouahaskell.com/chapters.
+>
+> -}
+>
+> module Ch02.Baby where
+
 Baby
 ====
 

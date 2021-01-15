@@ -2,11 +2,27 @@
 
 ## Unreleased changes
 
-## 2021-10-13 - 0.1.0.0
+## 2021-01-15 - 0.2.0.0
+
+Move `baby.lhs` to owns module `Ch02.Baby`
+
+### Added
+
+* src/Ch02/Baby.lhs     module `Baby` from `baby.lhs`
+
+### Changed
+
+* baby.lhs              moved to `src/Ch02`
+* README.md             a note about modules
+* package.yaml          new version, removed `baby.lhs` from `extra-source-files`
+* ChangeLog.md          fix some errors
+
+
+## 2021-01-13 - 0.1.0.0
 
 Minor fixes
 
-## Changed
+### Changed
 
 * README.md     a note about loading `baby.lhs` in `ghci`.
 * .gitignore    added `dist-newstyle/` 
@@ -19,7 +35,7 @@ Chapter 2: Starting Out
 
 * baby.hs
 
-### Added
+### Changed
 
 * ChangeLog.md
 * learnyouahaskell.cabal
