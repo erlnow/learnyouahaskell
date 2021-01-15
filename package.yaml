@@ -12,7 +12,6 @@ extra-source-files:
 - ChangeLog.md
 - TODO
 - LICENSE
-# - baby.lhs
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
