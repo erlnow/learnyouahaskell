@@ -38,3 +38,19 @@ $ cabal exec ghci
 
 `baby.lhs` from chapter 2, for example, was moved to `src/Ch02` directory
 and converted to module `Ch02.Baby` in order to integrate with `cabal` tools.
+
+## Testing
+
+I tried to configure [DocTest][doctest] with [QuickCheck][quickcheck] in
+`cabal` without success. In order to run `DocTest` run:
+
+```
+$ doctest src/Ch02/Baby.lhs 
+Examples: 3  Tried: 3  Errors: 0  Failures: 0
+```
+
+For now, I will not try [HSpec][HSpec].
+
+[doctest]: https://github.com/sol/doctest#readme
+[quickcheck]: http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+[HSpec]: https://hspec.github.io/
