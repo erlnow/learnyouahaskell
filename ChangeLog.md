@@ -2,6 +2,13 @@
 
 ## Unreleased changes
 
+## 2021-01-20 - 0.2.0.1
+
+### Changed
+
+* README.md             added a note about literate haskell
+* src/Ch02/Baby.lhs     complete code
+
 ## 2021-01-15 - 0.2.0.0
 
 Move `baby.lhs` to owns module `Ch02.Baby`
