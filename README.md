@@ -54,3 +54,26 @@ For now, I will not try [HSpec][HSpec].
 [doctest]: https://github.com/sol/doctest#readme
 [quickcheck]: http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 [HSpec]: https://hspec.github.io/
+
+## Literate Haskell
+
+Haskell provides native features to support [literate programming][lhs]. In haskell,
+a literate program is one with the suffix `.lhs`. `GHC` supports [markdown][md] as
+annotation language through [markdown-unlit][md-ulint].
+
+[nvim][vim] support `.hs` and `.lhs` files. To preview the markdown result we can
+use a *plugin*. There are several of these plugins, currently, I use [iamcco/markdown-preview.vim][md-plug]. In order to works with `.lhs` files, I added this extension to
+`g:mkdp_filetypes`. The output is not very well-looked. [pandoc][pandoc] supports
+*literate haskell* with markdown, through [pandoc literate Haskell support][lhs-pandoc]:
+
+```
+$ pandoc -f markdown+lhs -t html src/Ch02/Baby.lhs > src/Ch02/Baby.html
+$ xdg-open src/Ch02/Baby.html
+```
+
+[lhs]: https://wiki.haskell.org/Literate_programming
+[md]: https://daringfireball.net/projects/markdown/syntax
+[vim]: https://neovim.io
+[pandoc][pandoc]: https://pandoc.org/
+[lhs-pandoc]: https://pandoc.org/MANUAL.html#literate-haskell-support
+[md-unlit]: https://github.com/sol/markdown-unlit#read
