@@ -74,6 +74,6 @@ $ xdg-open src/Ch02/Baby.html
 [lhs]: https://wiki.haskell.org/Literate_programming
 [md]: https://daringfireball.net/projects/markdown/syntax
 [vim]: https://neovim.io
-[pandoc][pandoc]: https://pandoc.org/
+[pandoc]: https://pandoc.org/
 [lhs-pandoc]: https://pandoc.org/MANUAL.html#literate-haskell-support
 [md-unlit]: https://github.com/sol/markdown-unlit#read
