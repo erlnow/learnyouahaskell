@@ -2,6 +2,18 @@
 
 ## Unreleased changes
 
+## 2021-01-22 - 0.3.0.0
+
+### Added
+
+* src/Ch03/Baby.hs      module `Ch03.Baby` with notes and code
+                        from chapter 3
+
+### Changed
+
+* package.yaml
+* learnyouahaskell.cabal
+
 ## 2021-01-20 - 0.2.0.1
 
 ### Changed
