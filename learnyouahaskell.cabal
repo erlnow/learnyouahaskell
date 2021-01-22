@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9a216791c7ede66cbe362d60aa141bc2c3427b55137643009d8bb84681ca2327
+-- hash: bb86bfacc53783e2ca4a2ef68b0efe8111a49cec171faa1c2ec18959c9a14da6
 
 name:           learnyouahaskell
-version:        0.3.0.0
+version:        0.3.0.1
 synopsis:       Learn You a Haskell for a Greet Good!
 description:    Please see the README on GitHub at <https://github.com/erlnow/learnyouahaskell#readme>
 category:       Learn
@@ -53,6 +53,21 @@ executable learnyouahaskell-exe
   build-depends:
       base >=4.7 && <5
     , learnyouahaskell
+    , text
+  default-language: Haskell2010
+
+test-suite doctest
+  type: exitcode-stdio-1.0
+  main-is: doctest.hs
+  other-modules:
+      Paths_learnyouahaskell
+  hs-source-dirs:
+      doctest
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , base
+    , doctest >=0.8
     , text
   default-language: Haskell2010
 

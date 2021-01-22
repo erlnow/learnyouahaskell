@@ -49,6 +49,11 @@ $ doctest src/Ch02/Baby.lhs
 Examples: 3  Tried: 3  Errors: 0  Failures: 0
 ```
 
+**NOTE**: In version 3.0.1 has added support for [DoctTest][doctest] in
+`package.yaml`. It's work but I must add the module to `app/Main.hs` as
+import and the output is in a log file deep in `dist-newstyle/' directory.
+I prefer run `doctest` manually, still.
+
 For now, I will not try [HSpec][HSpec].
 
 [doctest]: https://github.com/sol/doctest#readme

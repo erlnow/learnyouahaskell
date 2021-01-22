@@ -2,6 +2,18 @@
 
 ## Unreleased changes
 
+## 2021-01-22 - 0.3.0.1
+
+### Added
+
+* doctest/doctest.hs    `doctest` drive for `cabal`
+* README.md             A note about doctest
+
+### Changed
+
+* package.yaml          cabal integration
+* learnyouahaskell.cabal
+
 ## 2021-01-22 - 0.3.0.0
 
 ### Added
