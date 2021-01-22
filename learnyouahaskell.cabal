@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c1003792bfe3aead64f4c02fabf368c1ca976b0cfd107d85643c1fbd9bae3593
+-- hash: 9a216791c7ede66cbe362d60aa141bc2c3427b55137643009d8bb84681ca2327
 
 name:           learnyouahaskell
-version:        0.2.0.1
+version:        0.3.0.0
 synopsis:       Learn You a Haskell for a Greet Good!
 description:    Please see the README on GitHub at <https://github.com/erlnow/learnyouahaskell#readme>
 category:       Learn
@@ -32,6 +32,7 @@ source-repository head
 library
   exposed-modules:
       Ch02.Baby
+      Ch03.Baby
       Lib
   other-modules:
       Paths_learnyouahaskell
