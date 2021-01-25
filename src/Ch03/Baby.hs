@@ -168,7 +168,7 @@ circumference' r = 2 * pi * r
 --
 -- 'Enum' members are sequentially order types - they can be enumerated. We can
 -- use its types in list ranges. `succ` and `pred` functions give the successor
--- and the predecessor. Types in this class: '()', 'Bool', 'Char', 'Ordering',
+-- and the predecessor. Types in this class: (), 'Bool', 'Char', 'Ordering',
 -- 'Int', 'Integer', 'Float' and 'Double'.
 --
 -- >>> ['a'..'e']
