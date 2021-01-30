@@ -2,11 +2,23 @@
 
 ## Unreleased changes
 
-## 2021-01-25 - 0.4.0.0
+## 2021-01-30 - 0.5.0.0
 
 ### Added
 
-* src/Ch04/Baby.hs      notes and code from chapter 4 (until `third` definition)
+* src/Ch05/Baby.hs      notes and code from Chapter 5
+* images/maxs.png 
+* images/quicksort.png
+
+### Changed
+
+* package.yaml          Added extra-doc-files
+
+## 2021-01-28 - 0.4.0.0
+
+### Added
+
+* src/Ch04/Baby.hs      notes and code from chapter 4
 
 ### Changed
 

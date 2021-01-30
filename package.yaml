@@ -1,5 +1,5 @@
 name:                learnyouahaskell
-version:             0.4.0.0
+version:             0.5.0.0
 github:              "erlnow/learnyouahaskell"
 license:             BSD3
 license-file:        LICENSE
@@ -12,6 +12,9 @@ extra-source-files:
 - ChangeLog.md
 - TODO
 - LICENSE
+
+extra-doc-files:
+- images/*
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
