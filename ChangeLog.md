@@ -2,6 +2,12 @@
 
 ## Unreleased changes
 
+## 2021-02-23 - 0.6.0.0
+
+### Added
+
+* src/Ch06/Baby.hs      notes and code from Chapter 6
+
 ## 2021-01-30 - 0.5.0.0
 
 ### Added
